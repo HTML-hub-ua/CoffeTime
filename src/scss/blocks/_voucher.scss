@@ -1,0 +1,24 @@
+//VOUCHER
+
+.voucher{
+    height: 745px;
+
+    &__title {
+        text-align: center;
+        font-size: 130px;
+    }
+
+    &__img-vrapper {
+        text-align: center;
+        img {
+            box-shadow: -5px 10px 20px #191d24;
+        }
+        padding-bottom: 50px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        width: 360px;
+    }
+}

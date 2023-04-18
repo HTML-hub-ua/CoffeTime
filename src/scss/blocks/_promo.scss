@@ -1,0 +1,57 @@
+//PROMO
+
+.promo {
+    padding-left: 60px;
+    position: relative;
+    height: 800px;
+
+    &__text-part {
+        padding-top: 108px;
+        width: 840px;
+    }
+    
+    &__headline {
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+    
+    &__text {
+        padding-top: 30px;
+        width: 435px;
+    }
+    
+    &__btn {
+        margin-top: 30px;
+    }
+    
+    &__img-vrapper{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 645px;
+        width: 815px;
+    }
+
+    // bottom wave
+
+    &__custom-shape-divider-bottom-1681575059 {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    &__custom-shape-divider-bottom-1681575059 svg {
+        position: relative;
+        display: block;
+        width: calc(140% + 1.3px);
+        height: 140px;
+    }
+
+    &__custom-shape-divider-bottom-1681575059 .shape-fill {
+        fill: var(--main-color);
+    }
+}

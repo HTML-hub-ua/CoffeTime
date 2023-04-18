@@ -1,0 +1,54 @@
+//CUSTOMER REVIEWS
+
+.reviews {
+    min-height: 980px;
+    padding-top: 50px;
+    position: relative;
+
+    &__title {
+        text-align: center;
+        font-size: 87px;
+        padding-bottom: 80px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        min-height: 620px;
+        text-align: center;
+    }
+
+    &__name {
+        padding-top: 50px;
+        font-size: 50px;
+    }
+
+    &__description {
+        width: 480px;
+        padding-top: 45px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    // Wave
+
+    &__custom-shape-divider-bottom-1681740864 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    &__custom-shape-divider-bottom-1681740864 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 106px;
+    }
+
+    &__custom-shape-divider-bottom-1681740864 .shape-fill {
+        fill: var(--main-color);
+    }
+}

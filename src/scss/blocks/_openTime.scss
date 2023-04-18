@@ -1,0 +1,20 @@
+//WE ARE OPEN
+
+.open-time {
+    min-height: 610px;
+    background: var(--main-color);
+    text-align: center;
+
+    &__title {
+        padding-top: 50px;
+        font-size: 97px;
+    }
+
+    &__schedule {
+        padding-top: 100px;
+    }
+
+    &__hours {
+        padding-top: 15px;
+    }
+}

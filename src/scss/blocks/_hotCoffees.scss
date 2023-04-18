@@ -1,0 +1,53 @@
+//HOT COFFEES
+
+.hot-coffee{
+    min-height: 780px;
+    position: relative;
+    
+    //top wave
+
+    &__custom-shape-divider-top-1681582219 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    &__custom-shape-divider-top-1681582219 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 102px;
+    }
+
+    &__custom-shape-divider-top-1681582219 .shape-fill {
+        fill: var(--main-color);
+    }
+
+    &__title {
+        text-align: right;
+        padding: 200px 150px 0 940px;
+        line-height: 140px;
+        font-size: 125px;
+    }
+
+    &__btn {
+        margin: 100px 150px 0 1050px;
+    }
+
+    &__img-vrapper {
+        position: absolute;
+        top: 125px;
+        left: 135px;
+    }
+
+    &__description {
+        width: 600px;
+        min-height: 145px;
+        padding-left: 135px;
+        padding-top: 75px;
+    }
+}

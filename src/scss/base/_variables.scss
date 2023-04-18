@@ -1,0 +1,60 @@
+:root {
+    --main-color: #29a19c;
+}
+
+.title {
+    color:white;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 400;
+    font-size: 153px;
+}
+
+.headline {
+    color: white;
+    font-family: 'Montserrat', cursive;
+    font-weight: 900;
+    font-size: 33px;
+}
+
+.text {
+    color: white;
+    font-family: 'Montserrat', cursive;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.description {
+    color: white;
+    font-family: 'Montserrat', cursive;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+button {
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-family: 'Montserrat', cursive;
+    font-weight: 900;
+    font-size: 33px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: var(--main-color);
+}
+
+.black {
+    background-color: #222831;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+// .active-point {
+//     border-bottom: 4px solid var(--main-color);
+// }

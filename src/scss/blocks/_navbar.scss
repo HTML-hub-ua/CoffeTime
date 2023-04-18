@@ -1,0 +1,31 @@
+// NAVBAR
+
+.navbar {
+    position: relative;
+
+    &__logo {
+        position: absolute;
+        top: 60px;
+        right: 60px;
+    }
+    
+    &__list {
+        list-style-type: none;
+        width: 730px;
+        height: 40px;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__list-point {
+        font-family: 'Montserrat', cursive;
+        color: white;
+    }
+
+    a:hover {
+        border-bottom: 4px solid var(--main-color);
+    }
+}

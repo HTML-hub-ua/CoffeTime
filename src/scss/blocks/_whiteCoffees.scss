@@ -1,0 +1,38 @@
+//WHITE COFFEES
+
+.white-coffee {
+    min-height: 780px;
+    position: relative;
+
+    &__title {
+        padding-top: 155px;
+        padding-left: 135px;
+        height: 330px;
+        width: 260px;
+        line-height: 140px;
+        font-size: 125px;
+    }
+
+    &__btn {
+        margin-top: 65px;
+        margin-left: 135px;
+    }
+
+    &__img-vrapper {
+        position: absolute;
+        top: 77px;
+        right: 170px;
+        img {
+            height: 520px;
+            width: 535px;
+        }
+    }
+
+    &__description {
+        min-height: 145px;
+        width: 600px;
+        text-align: right;
+        padding-left: 700px;
+        padding-top: 75px;
+    }
+}
